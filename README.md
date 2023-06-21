@@ -12,7 +12,7 @@ An example of the template website being hosted on the UCSC domain:
 ### Requirements
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [Bitvise SSH client](https://www.bitvise.com/download-area) _(Alternatively, any FTP will work)_
+- [Bitvise SSH client](https://www.bitvise.com/download-area) _(Alternatively, any FTP client will work)_
 
 ## Setup
 
@@ -20,7 +20,7 @@ An example of the template website being hosted on the UCSC domain:
 1. Clone the repository in a directory of your choice with the following command:
      
    ```Console
-   git clone <URL>
+   git clone https://github.com/Shawn-Armstrong/UCSC_Student_Website_Template.git
    ```
 2. Fill in your details at `../assets/details.js` for a quick start. 
 
@@ -35,7 +35,6 @@ An example of the template website being hosted on the UCSC domain:
 3. Use Bitvise to SSH into the UNIX Timeshare, open a new SFTP windows then copy the files inside `dist` to `public_html`.
   
 <kbd>![deploy](https://user-images.githubusercontent.com/80125540/247389855-735d2ce1-3918-45ce-a0f7-6fa90bc0eae3.gif)</kbd>
-
 
 ## Technical Details
 

@@ -27,7 +27,7 @@ An example of the template website being hosted on the UCSC domain:
 ## Usage
 
 ### Development
-- Navigate to the project's root directory in a console and run, `npm run start`, to spin up a development server which will host your current code in-browser at http://localhost:8080/ .
+- Navigate to the project's root directory in a console and run, `npm run serve`, to spin up a development server which will host your current code in-browser at http://localhost:8080/ .
 
 ### Deploy
 1. Ensure you've add your CruzID to `../assets/details.js`.

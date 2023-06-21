@@ -27,12 +27,12 @@ An example of the template website being hosted on the UCSC domain:
 ## Usage
 
 ### Development
-- Navigate to the project's root directory in a console and run, `npm run start`, to spin up a development server which will host your current code in-browser at http://localhost:8080/ .
+- Navigate to the project's root directory in a console and run, `npm run serve`, to spin up a development server which will host your current code in-browser at http://localhost:8080/ .
 
 ### Deploy
 1. Ensure you've add your CruzID to `../assets/details.js`.
 2. Navigate to the root directory of the template and run, `npm run build`, which will create a directory called `dist` containing a production build of your website.
-3. Use Bitvise to SSH into the UNIX Timeshare, open a new SFTP windows then copy the files inside `dist` to `public_html`.
+3. Use Bitvise to SSH into the UNIX Timeshare, open a new SFTP windows then copy the files inside `dist` to `public_html`. Your website will be hosted at `https://people.ucsc.edu/~YOUR_CRUZ_ID_HERE/#/` once the upload finishes.
   
 <kbd>![deploy](https://user-images.githubusercontent.com/80125540/247389855-735d2ce1-3918-45ce-a0f7-6fa90bc0eae3.gif)</kbd>
 

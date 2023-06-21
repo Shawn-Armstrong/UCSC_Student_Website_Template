@@ -5,9 +5,10 @@
 - This guidances provides a ready-to-use Vuejs template; alternatively, you can use your own front-end resources developed with React, Angular, HTML/CSS, etc... 
 
 ### Demo
-An example of the template website being hosted on the UCSC domain:
+- An example of the template website being hosted on the UCSC domain. 
+- [Live static demo viewable here.](https://shawn-armstrong.github.io/UCSC_Student_Website_Template/#/)
     
-<kbd>![ezgif com-optimize](https://user-images.githubusercontent.com/80125540/247391168-b903b33f-6f61-427d-a5f6-3c779139da9c.gif)</kbd>
+    <kbd>![ezgif com-optimize](https://user-images.githubusercontent.com/80125540/247391168-b903b33f-6f61-427d-a5f6-3c779139da9c.gif)</kbd>
 
 ### Requirements
 - [Git](https://git-scm.com/)

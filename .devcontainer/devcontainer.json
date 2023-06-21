@@ -1,9 +1,0 @@
-{
-    "name": "Personal Website Dev Container",
-    "dockerFile": "Dockerfile",
-    "forwardPorts": [8080],
-    "mounts": ["source=node_modules,target=/app/node_modules,type=volume"],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-}

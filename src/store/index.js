@@ -1,1 +1,0 @@
-// Will be used to set up a Vuex store for state management if needed in the future.

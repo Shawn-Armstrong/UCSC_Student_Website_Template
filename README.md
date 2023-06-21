@@ -2,6 +2,7 @@
 
 ### Overview
 - This guide provides comprehensive instructions for students at UC Santa Cruz _(UCSC)_ to host their personal websites under the UCSC domain.
+- Alternatively, if you're no longer a student, instructions are provided for deploying to gh-pages.
 - This guidances provides a ready-to-use Vuejs template; alternatively, you can use your own front-end resources developed with React, Angular, HTML/CSS, etc... 
 
 ### Demo

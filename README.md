@@ -29,7 +29,7 @@
 ### Development
 - Navigate to the project's root directory in a console and run, `npm run serve`, to spin up a development server which will host your current code in-browser at http://localhost:8080/ .
 
-### Deploy
+### Deploy to UCSC domain
 1. Ensure you've add your CruzID to `../assets/details.js`.
 2. Navigate to the root directory of the template and run, `npm run build`, which will create a directory called `dist` containing a production build of your website.
 3. Use Bitvise to SSH into the UNIX Timeshare, open a new SFTP windows then copy the files inside `dist` to `public_html`. Your website will be hosted at `https://people.ucsc.edu/~YOUR_CRUZ_ID_HERE/#/` once the upload finishes.
@@ -41,6 +41,18 @@
     password: Your Blue Password
     ```
     <kbd>![deploy](https://user-images.githubusercontent.com/80125540/247389855-735d2ce1-3918-45ce-a0f7-6fa90bc0eae3.gif)</kbd>
+
+### Deploy to gh-pages
+If you're no longer a student you can still use this template. 
+
+1. Create a new repository in your GitHub account, then clone this repository and push its content to your newly created repository.
+2. In `../assets/details.js` add the name of your repository as your CruzID. If your repository is named `UCSC_Student_Website_Template` then it would be:
+
+   ```JavaScript
+   cruzId: "UCSC_Student_Website_Template"
+   ```
+3. In the root directory run, `npm run build` followed by `npm run deploy`. Your website will be hosted at `https://YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/#/`
+
 
 ## Technical Details
 

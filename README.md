@@ -7,10 +7,10 @@ All rights reserved. Licensed under the MIT License.
 # UC Santa Cruz Student Website
 
 ### Overview
-- Project is maintained by [UCSC, CSE LinkedIn Group](https://www.linkedin.com/groups/13961967/) and licensed under the MIT License to encourage reuse, sharing and modification.
 - This guide provides comprehensive instructions for students at UC Santa Cruz _(UCSC)_ to host their personal websites under the UCSC domain.
 - If you're no longer a student, instructions are provided for deploying to gh-pages.
-- This guide provides a ready-to-use Vuejs template; alternatively, you can use your own front-end resources developed with React, Angular, HTML/CSS, etc. 
+- This guide provides a ready-to-use Vuejs template; alternatively, you can use your own front-end resources developed with React, Angular, HTML/CSS, etc.
+- Project is maintained by [UCSC, CSE LinkedIn Group](https://www.linkedin.com/groups/13961967/) and licensed under the MIT License to encourage reuse, sharing and modification.
 
 ### Demo
 [Live static demo viewable here.](https://shawn-armstrong.github.io/UCSC_Student_Website_Template/#/)
